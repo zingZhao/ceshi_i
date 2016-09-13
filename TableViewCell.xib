@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="T1" rowHeight="83" id="KGk-i7-Jjw" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="381" height="82.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ssq-LT-9Zn">
+                        <rect key="frame" x="10" y="10" width="100" height="62.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="Ml8-hz-i5x"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="T1" text="以图为媒,速递新闻;在这里,每天看“有温度的视觉”。频道致力于成为中国报道摄影师成长平台。以影像记录中国,发掘历史,感知世界。品牌栏目有《看见》" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hU-47-oi2">
+                        <rect key="frame" x="120" y="10" width="251" height="62.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ssq-LT-9Zn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="9ef-0H-Qch"/>
+                    <constraint firstAttribute="bottom" secondItem="ssq-LT-9Zn" secondAttribute="bottom" constant="10" id="CUA-Xm-AeT"/>
+                    <constraint firstItem="9hU-47-oi2" firstAttribute="leading" secondItem="ssq-LT-9Zn" secondAttribute="trailing" constant="10" id="HhM-jO-WQl"/>
+                    <constraint firstAttribute="bottom" secondItem="9hU-47-oi2" secondAttribute="bottom" constant="10" id="Q5Q-Z4-JNs"/>
+                    <constraint firstAttribute="trailing" secondItem="9hU-47-oi2" secondAttribute="trailing" constant="10" id="gzf-xK-iZU"/>
+                    <constraint firstAttribute="bottom" secondItem="9hU-47-oi2" secondAttribute="bottom" constant="10" id="qWR-yv-dkm"/>
+                    <constraint firstAttribute="trailing" secondItem="9hU-47-oi2" secondAttribute="trailing" constant="10" id="rzu-ZF-dgB"/>
+                    <constraint firstItem="ssq-LT-9Zn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="tKs-0q-N6c"/>
+                    <constraint firstItem="9hU-47-oi2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="txH-nW-P7C"/>
+                    <constraint firstItem="9hU-47-oi2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="wqK-Y1-6kF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftimage" destination="ssq-LT-9Zn" id="xbm-lA-r0P"/>
+                <outlet property="rightlabel" destination="9hU-47-oi2" id="BuZ-VH-Udc"/>
+            </connections>
+            <point key="canvasLocation" x="237.5" y="158.5"/>
+        </tableViewCell>
+    </objects>
+</document>
