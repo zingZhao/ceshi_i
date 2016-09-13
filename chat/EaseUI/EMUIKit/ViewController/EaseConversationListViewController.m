@@ -164,7 +164,8 @@
     if (!error) {
         NSLog(@"发送成功");
         [self showHint:@"已加入黑名单"];
-        [self tableDelegateCellAtIndexPath:indexPath];
+        [self.tableView setEditing:NO];
+        //[self tableDelegateCellAtIndexPath:indexPath];
     }else{
         [self showHint:@"加入黑名单失败"];
     }
